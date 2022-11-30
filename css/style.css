@@ -1,0 +1,144 @@
+/*---BODY---*/
+
+body {
+    background-image: url(/img/background.jpg);
+    font-family: europhonic;
+
+}
+
+/*---HEADER---*/
+
+.navbar {
+    background-color: #8461310a;
+}
+
+.enlace a {
+    color: #846131
+}
+
+.logo-header {
+    height: 75px;
+}
+
+.navbar-toggler-icon {
+    color: #846131;
+}
+
+/*---MAIN---*/
+
+/*-MUSICA-*/
+
+.musica {
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    color: #846131;
+    font-family: europhonic;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.row {
+    padding: 20px;
+}
+
+.col {
+    margin: 10px;
+}
+
+.discos1 {
+    color: #846131;
+}
+
+.discos2 {
+    color: #846131;
+}
+
+.btn {
+    border: 1px solid #846131;
+    padding: 6px 8px;
+    border-radius: 8px;
+    color: whitesmoke;
+}
+
+
+/*---CONTACTO---*/
+
+.formulario-contacto h3 {
+    color: #846131;
+}
+
+
+
+/*---FOOTER---*/
+
+footer {
+    background-color: #84613134;
+    color: #846131;
+}
+
+.logo-footer {
+    width: 150px;
+    height: 150px;
+}
+
+.footer-text {
+    font-size: small;
+}
+
+.follow-text {
+    color: black;
+}
+
+.icon-ig {
+    margin: 5px;
+    align-items: center;
+}
+
+.icon-fb {
+    margin: 5px;
+    align-items: center;
+   }
+
+.icon-yt {
+    margin: 5px;
+    align-items: center;
+    
+}
+
+
+/*-- VIDEO YOUTUBE
+
+   <div class="ratio ratio-21x9 justify-content-center">
+      <iframe src="https://youtu.be/zQonrR4dG74" title="YouTube video" allowfullscreen></iframe>
+    </div>
+
+<section class="formulario-contacto container shadow my-5 p-4">
+                <div class="row">
+                    <div class="col-lg-8 d-lg-flex flex-lg-column justify-content-around">
+
+                        <h3 class="text-center text-lg-start display-6">Let's Work Together </h3>
+
+                                <form action="" class="row">
+                            <div class="row">
+                            <div class="mb-3 col-lg-6">
+                                <input type="text" class="form-control" id="nombre-usuario" placeholder="Nombre">
+                            </div>
+
+                            <div class="mb-3 col-lg-6">
+                                <input type="email" class="form-control" id="mail-usuario"
+                                    placeholder="name@example.com">
+                            </div>
+
+                            <div class="d-flex justify-content-center align-items-center col-lg-1">
+                                <input type="submit" class="btn btn-dark" value="Enviar">
+                            </div>
+                        </div>
+                        </form>
+                    </div>
+                    </div>
+                
+            </section>
+
+
+    /*
