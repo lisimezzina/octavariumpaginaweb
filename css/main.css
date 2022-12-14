@@ -142,6 +142,7 @@ body {
   padding: 2px;
   color: whitesmoke;
 }
+
 .btn :hover {
   color: violet;
 }
