@@ -7,28 +7,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/style.css">
-  <title>Octavarium Studios</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Octavarium Productions</title>
 </head>
+
 
 <body>
 
-  <header class="navbar navbar-expand-lg">
+  <header class="navbar navbar-expand-lg" style="background-color: #00000055">
     <div class="container enlace">
       <div class="navbar-brand justify-content-center" href="#">
         <img src="./img/octavariumlogogold.png" class="logo-header" alt="logooctavariumstudios">
       </div>
-      <button class="navbar-toggler" type="button" fill="#846131" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
       <nav class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
         <ul class="navbar-nav">
           <li class="nav-item"><a href="./index.html" class="nav-link" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a href="./pages/releases.html" class="nav-link" href="#">Releases</a>
+            <a href="./pages/releases.html" class="nav-link" href="#">Productions</a>
           </li>
           <li class="nav-item">
             <a href="./pages/artwork.html" class="nav-link" href="#">Artwork</a>
@@ -40,6 +44,7 @@
             <a href="./pages/contact.html" class="nav-link">Contact</a>
           </li>
         </ul>
+
       </nav>
     </div>
   </header>
@@ -95,51 +100,42 @@
           <h2>ULTIMOS LANZAMIENTOS</h2>
         </div>
 
-        <div class="discos container text-center expand-lg">
-          <div class="row discos1">
-            <div class="col-4">
-              <img src="img/dontscratchthewall.jpg" class="img-fluid w-75 rounded mx-auto d-block"
-                alt="octavariumlogo">
-              <h5>Juan Bach</h5>
-              <h6>Don't Scratch The Wall</h6>
-              <a href="https://www.youtube.com/watch?v=EF7isHilRmc" class="btn">Escuchar</a>
+        <div class="tarjeta justify-content-center">
+          <div class="row align-items-lg-center justify-content-center">
+            <div class="tarjeta col-4" style="width: 18rem;">
+              <img src="../img/dontscratchthewall.jpg" class="card-img-top" alt="juanbachdontscratchthewall">
+              <div class="tarjeta_body">
+                <h5 class="tarjeta-titulo">Juan Bach</h5>
+                <p class="tarjeta-texto">Don't Scratch The Wall</p>
+                <a href="https://www.youtube.com/watch?v=EF7isHilRmc" class="btn">Escuchar</a>
+              </div>
             </div>
-            <div class="col-4 col-md-4">
-              <img src="img/burningcreation.jpg" class="img-fluid w-75 rounded mx-auto d-block" alt="octavariumlogo">
-              <h5>Acroma</h5>
-              <h6>Burning Creation</h6>
-              <a href="https://www.youtube.com/watch?v=943WSgNzcPI" class="btn">Escuchar</a>
+    
+            <div class="tarjeta col-4" style="width: 18rem;">
+              <img src="../img/colorful.jpg" class="card-img-top" alt="juanbachcolorful">
+              <div class="tarjeta-body">
+                <h5 class="tarjeta-titulo">Juan Bach</h5>
+                <p class="tarjeta-texto">Colorful (Single)</p>
+                <a href="https://www.youtube.com/watch?v=5go-N-BwAjw" class="btn">Escuchar</a>
+              </div>
             </div>
-
-            <div class="col-4 col-md-4">
-              <img src="img/entropy.jpg" class="img-fluid w-75 rounded mx-auto d-block" alt="octavariumlogo">
-              <h5>Bestiarum</h5>
-              <h6>Entropy</h6>
-              <a href="https://www.youtube.com/watch?v=_yBk9zoxwq4" class="btn">Escuchar</a>
+    
+            <div class="tarjeta col-4" style="width: 18rem;">
+              <img src="../img/megadeth.jpg" class="card-img-top" alt="megadethyouthamasiatribute">
+              <div class="tarjeta_body">
+                <h5 class="tarjeta-titulo">Adictos Al Caos - Tributo a Megadeth</h5>
+                <p class="tarjeta-texto">Youthanasia</p>
+                <a href="https://www.youtube.com/watch?v=tKk539xK0BQ" class="btn">Escuchar</a>
+              </div>
             </div>
           </div>
 
-          <div class="row discos2">
-            <div class="col-4 col-md-4">
-              <img src="img/luxmortem.jpg" class="img-fluid w-75 rounded mx-auto d-block" alt="luxmortem">
-              <h5>Lux Mortem</h5>
-              <h6>El Mundo esta en tu Mente</h6>
-              <a href="https://www.youtube.com/watch?v=AHsxLTjN6OE" class="btn">Escuchar</a>
-            </div>
-            <div class="col-4 col-md-4">
-              <img src="img/megadeth.jpg" class="img-fluid w-75 rounded mx-auto d-block" alt="youthanasiatribute">
-              <h5>Adictos Al Caos Megadeth Tribute</h5>
-              <h6>Youthanasia</h6>
-              <a href="https://www.youtube.com/watch?v=tKk539xK0BQ" class="btn">Escuchar</a>
-            </div>
-            <div class="col-4 col-md-4">
-              <img src="img/silence.jpg" class="img-fluid w-75 rounded mx-auto d-block" alt="silence">
-              <h5>Silence</h5>
-              <h6>Placelessness</h6>
-              <a href="https://www.youtube.com/watch?v=bX9c2dJAGFQ" class="btn">Escuchar</a>
-            </div>
-
-          </div>
+        </div>
+        <div class="tarjeta justify-content-center">
+          <div row col-12 >
+          <a href="./pages/releases.html" class="btn">VER MAS</a>
+        </div>
+      </div>
         </div>
 
     </section>
@@ -153,31 +149,28 @@
         </div>
 
 
-        <div class="discos container text-center expand-lg">
-          <div class="row" padding="0px" margin="0px">
-            <div class="col-4">
-              <img src="img/acroma2.jpg" class="img-fluid w-75 rounded mx-auto d-block" alt="acromaunum">
-            </div>
-            <div class="col-4">
-              <img src="img/acroma3.jpg" class="img-fluid w-75 rounded mx-auto d-block" alt="acromaduo">
-            </div>
-            <div class="col-4">
-              <img src="img/acromatribus.jpg" class="img-fluid w-75 rounded mx-auto d-block" alt="acromatribus">
-            </div>
-          </div>
+        <div class="tarjeta justify-content-center">
+          <div class="row align-items-lg-center justify-content-center">
 
-          <div class="row">
-            <div class="col-4">
-              <img src="img/fuzzmantraloinnombrable.jpg" class="img-fluid w-75 rounded mx-auto d-block"
-                alt="fuzzmantraloinnombrable">
+            <div class="tarjeta col-4" style="width: 18rem;">
+              <img src="../img/dontscratchthewall.jpg" class="card-img-top" alt="juanbachdontscratchthewall">
             </div>
-            <div class="col-4">
-              <img src="img/unfearchronicles.jpg" class="img-fluid w-75 rounded mx-auto d-block" alt="acromatribus">
+
+            <div class="tarjeta col-4" style="width: 18rem;">
+              <img src="../img/colorful.jpg" class="card-img-top" alt="juanbachcolorful">
             </div>
-            <div class="col-4">
-              <img src="img/fuzzmantrahuellas.jpg" class="img-fluid w-75 rounded mx-auto d-block"
-                alt="fuzzmantrahuellas">
+
+            <div class="tarjeta col-4" style="width: 18rem;">
+              <img src="../img/burningcreation.jpg" class="card-img-top" alt="acromaburningcreation">
             </div>
+
+            <div class="tarjeta col-4" style="width: 18rem;">
+              <img src="../img/acroma3.jpg" class="card-img-top" alt="acromatribus">
+            </div>
+
+          </div>
+          <div row col-12>
+            <a href="./pages/artwork.html" class="btn">VER MAS</a>
           </div>
         </div>
 
@@ -196,14 +189,14 @@
 
   </main>
 
-  <footer>
+  <footer class="ft">
 
     <div class="container">
 
       <div class="row justify-content-lg-between align-items-lg-center border-bottom">
 
         <div class=" footer-text d-flex flex-column align-items-center justify-content-center p-4 col-lg-4">
-          <img src="./img/logoname.png" alt="" class="logo-footer img-fluid">
+          <img src="./img/octavariumlogogold.png" alt="" class="logo-footer img-fluid">
           <span>JUAN BACH © 2022 | Todos los Derechos Reservados</span>
           <span>juanbach.musico@gmail.com</span>
         </div>
@@ -212,19 +205,19 @@
           <h3 class="text-center follow-text">Follow Us</h3>
           <div class="d-flex justify-content-center fs-2">
             <div class="icon-ig">
-              <a href="https://www.instagram.com/juanbach_/"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#846131" class="bi bi-instagram"
-                viewBox="0 0 16 16">
-                <path
-                  d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
-              </svg></a>
+              <a href="https://www.instagram.com/juanbach_/"><svg xmlns="http://www.w3.org/2000/svg" width="20"
+                  height="20" fill="#846131" class="bi bi-instagram" viewBox="0 0 16 16">
+                  <path
+                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                </svg></a>
             </div>
 
             <div class="icon-fb">
-              <a href="https://www.facebook.com/octavariumstudios"><svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="#846131"
-                class="bi bi-facebook" viewBox="0 0 16 16">
-                <path
-                  d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
-              </svg></a>
+              <a href="https://www.facebook.com/octavariumstudios"><svg xmlns="http://www.w3.org/2000/svg" width="20px"
+                  height="20px" fill="#846131" class="bi bi-facebook" viewBox="0 0 16 16">
+                  <path
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                </svg></a>
             </div>
 
             <div class="icon-yt">
@@ -236,29 +229,29 @@
 
             </div>
 
-            
+
           </div>
         </div>
 
       </div>
 
       <div class="d-flex justify-content-center">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dice-3-fill"
-          viewBox="0 0 16 16">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+          class="dice bi bi-dice-3-fill" viewBox="0 0 16 16">
           <path
             d="M3 0a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V3a3 3 0 0 0-3-3H3zm2.5 4a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm8 8a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zM8 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
         </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-          class="bi bi-dice-3-fill" viewBox="0 0 16 16">
+          class="dice bi bi-dice-3-fill" viewBox="0 0 16 16">
           <path
             d="M3 0a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V3a3 3 0 0 0-3-3H3zm2.5 4a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm8 8a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zM8 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
         </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-          class="bi bi-dice-3-fill" viewBox="0 0 16 16">
+          class="dice bi bi-dice-3-fill" viewBox="0 0 16 16">
           <path
             d="M3 0a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V3a3 3 0 0 0-3-3H3zm2.5 4a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm8 8a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zM8 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
         </svg>
       </div>
 
-      <div class="d-flex justify-content-center">
+      <div class="credits-footer d-flex justify-content-center">
         <span>Lisi Mezzina <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
             class="bi bi-lightning-fill" viewBox="0 0 16 16">
             <path

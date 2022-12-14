@@ -1,0 +1,41 @@
+$card-height: 100% 
+
+;tarjeta {
+    background-color: rgba(0, 0, 0, 0);
+    padding: 10px 12px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+   
+    .tarjeta-titulo{
+ color: #846131; 
+}
+
+.tarjeta-texto{
+  color: #846131;  
+  }
+
+.tarjeta-textoextra{
+    font-size: small;
+    color: whitesmoke;
+    padding: 2px;
+}
+
+.btn{
+    background-color: #8461310a;
+    padding: 2px;
+    color: whitesmoke;
+
+    :hover{
+        color: violet;
+    }
+   
+}
+.card{
+    border-color: #846131;
+}
+
+
+
+

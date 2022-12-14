@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.fs-grande {
+  font-size: 4rem;
+}
+
+body {
+  background-image: url(../img/background.jpg);
+  font-family: europhonic;
+}
+
+.btn {
+  border: 1px solid #846131;
+  padding: 6px 8px;
+  border-radius: 8px;
+  color: whitesmoke;
+}
+
+.footer {
+  color: #846131;
+}
+
+.ft {
+  background-color: rgba(132, 97, 49, 0.1098039216);
+}
+
+.logo-footer {
+  width: 150px;
+  height: 150px;
+}
+
+.dice {
+  color: #846131;
+}
+
+.footer-text {
+  font-size: small;
+  color: #846131;
+}
+
+.follow-text {
+  color: black;
+}
+
+.icon-ig {
+  margin: 5px;
+  align-items: center;
+}
+
+.icon-fb {
+  margin: 5px;
+  align-items: center;
+}
+
+.icon-yt {
+  margin: 5px;
+  align-items: center;
+}
+
+.credits-footer {
+  color: #846131;
+}
+
+.logo-header {
+  height: 75px;
+}
+
+.enlace a {
+  color: #846131;
+}
+
+.musica {
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+  color: #846131;
+  font-family: europhonic;
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.row {
+  padding: 20px;
+}
+
+.col {
+  margin: 10px;
+}
+
+.discos1 {
+  color: #846131;
+}
+
+.discos2 {
+  color: #846131;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.099);
+}
+
+.enlace a {
+  color: #846131;
+}
+
+.nav-item {
+  color: #846131;
+}
+
+.navbar-toggler {
+  color: #846131;
+}
+
+.tarjeta {
+  background-color: rgba(0, 0, 0, 0.132);
+  padding: 10px 12px;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+.tarjeta-titulo {
+  color: #846131;
+}
+
+.tarjeta-texto {
+  color: #846131;
+}
+
+.tarjeta-textoextra {
+  font-size: small;
+  color: whitesmoke;
+  padding: 2px;
+}
+
+.btn {
+  background-color: rgba(132, 97, 49, 0.0392156863);
+  padding: 2px;
+  color: whitesmoke;
+}
+.btn :hover {
+  color: violet;
+}
+
+.tarjeta-servicios {
+  align-content: center;
+}
+
+.formulario-contacto h3 {
+  color: #846131;
+}
+
+/*# sourceMappingURL=main.css.map */
