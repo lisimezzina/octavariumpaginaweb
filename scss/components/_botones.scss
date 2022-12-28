@@ -15,10 +15,11 @@
     }
 
     .btn-index{
-        :hover{ transform: -10px;}
-        border: 1px solid #ffffff;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
     padding: 6px 8px;
     border-radius: 8px;
-    color: #846131;
+    color: black;
     justify-content: center;
+    align-items: center;
     }

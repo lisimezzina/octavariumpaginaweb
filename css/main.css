@@ -10,6 +10,10 @@
 
 body {
   background-image: url(../img/background.jpg);
+  background-repeat: repeat;
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed;
   font-family: europhonic;
 }
 
@@ -18,6 +22,24 @@ body {
   padding: 6px 8px;
   border-radius: 8px;
   color: whitesmoke;
+  justify-content: center;
+}
+
+.btn-services {
+  background-color: #846131;
+  color: black;
+  padding: 6px 8px;
+  border-radius: 8px;
+}
+
+.btn-index {
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  padding: 6px 8px;
+  border-radius: 8px;
+  color: black;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer {
@@ -43,7 +65,7 @@ body {
 }
 
 .follow-text {
-  color: black;
+  color: #846131;
 }
 
 .icon-ig {
@@ -111,13 +133,14 @@ body {
   color: #846131;
 }
 
-.navbar-toggler {
+.navbar-toggler-icon {
   color: #846131;
 }
 
-.tarjeta {
-  background-color: rgba(0, 0, 0, 0.132);
+tarjeta {
+  background-color: rgba(0, 0, 0, 0);
   padding: 10px 12px;
+  margin: 10px;
   align-items: center;
   align-content: center;
   text-align: center;
@@ -129,29 +152,23 @@ body {
 
 .tarjeta-texto {
   color: #846131;
-}
-
-.tarjeta-textoextra {
-  font-size: small;
-  color: whitesmoke;
-  padding: 2px;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn {
   background-color: rgba(132, 97, 49, 0.0392156863);
   padding: 2px;
   color: whitesmoke;
-}
-
-.btn :hover {
-  color: violet;
-}
-
-.tarjeta-servicios {
-  align-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .formulario-contacto h3 {
+  color: #846131;
+}
+
+h2 {
   color: #846131;
 }
 

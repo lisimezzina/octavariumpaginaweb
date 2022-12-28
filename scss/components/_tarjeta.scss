@@ -1,8 +1,9 @@
 $card-height: 100% 
 
-;tarjeta {
+;tarjeta{
     background-color: rgba(0, 0, 0, 0);
     padding: 10px 12px;
+    margin: 10px;
     align-items: center;
     align-content: center;
     text-align: center;
@@ -13,29 +14,18 @@ $card-height: 100%
 }
 
 .tarjeta-texto{
-  color: #846131;  
+  color: #846131;
+  align-items: center;  
+  justify-content: center;
   }
-
-.tarjeta-textoextra{
-    font-size: small;
-    color: whitesmoke;
-    padding: 2px;
-}
 
 .btn{
     background-color: #8461310a;
     padding: 2px;
     color: whitesmoke;
-
-    :hover{
-        color: violet;
-    }
+    align-items: center;
+    justify-content: center;
+ }
    
-}
-.card{
-    border-color: #846131;
-}
-
-
 
 
