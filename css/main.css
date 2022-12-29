@@ -14,7 +14,7 @@ body {
   height: 100%;
   width: 100%;
   background-attachment: fixed;
-  font-family: europhonic;
+  font-family: europhonic, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .btn {
@@ -23,23 +23,11 @@ body {
   border-radius: 8px;
   color: whitesmoke;
   justify-content: center;
-}
-
-.btn-services {
-  background-color: #846131;
-  color: black;
-  padding: 6px 8px;
-  border-radius: 8px;
-}
-
-.btn-index {
-  border: 1px solid #ffffff;
-  background-color: #ffffff;
-  padding: 6px 8px;
-  border-radius: 8px;
-  color: black;
-  justify-content: center;
   align-items: center;
+}
+
+.btn:hover {
+  transform: scale3d(1.1);
 }
 
 .footer {
@@ -87,6 +75,18 @@ body {
   color: #846131;
 }
 
+.logo-1:hover {
+  transform: scale(1.1);
+}
+
+.logo-2:hover {
+  transform: scale(1.1);
+}
+
+.logo-3:hover {
+  transform: scale(1.1);
+}
+
 .logo-header {
   height: 75px;
 }
@@ -121,6 +121,34 @@ body {
   color: #846131;
 }
 
+.img-1:hover {
+  transform: scale(1.1);
+}
+
+.img-2:hover {
+  transform: scale(1.1);
+}
+
+.img-3:hover {
+  transform: scale(1.1);
+}
+
+.img-4:hover {
+  transform: scale(1.1);
+}
+
+.img-5:hover {
+  transform: scale(1.1);
+}
+
+.img-art:hover {
+  transform: scale(1.1);
+}
+
+.watchmore:hover {
+  transform: scale(1.1);
+}
+
 .navbar {
   background-color: rgba(0, 0, 0, 0.099);
 }
@@ -146,8 +174,14 @@ tarjeta {
   text-align: center;
 }
 
+.tarjeta_body {
+  align-content: center;
+  align-items: center;
+}
+
 .tarjeta-titulo {
   color: #846131;
+  align-content: center;
 }
 
 .tarjeta-texto {
@@ -157,7 +191,7 @@ tarjeta {
 }
 
 .btn {
-  background-color: rgba(132, 97, 49, 0.0392156863);
+  background-color: none;
   padding: 2px;
   color: whitesmoke;
   align-items: center;
@@ -168,8 +202,108 @@ tarjeta {
   color: #846131;
 }
 
+.img-formulario:hover {
+  transform: scale(1.1);
+}
+
 h2 {
   color: #846131;
+}
+
+h3 {
+  color: rgb(164, 164, 164);
+}
+
+.img-01:hover {
+  transform: scale(1.1);
+}
+
+.img-02:hover {
+  transform: scale(1.1);
+}
+
+.img-03:hover {
+  transform: scale(1.1);
+}
+
+.img-04:hover {
+  transform: scale(1.1);
+}
+
+.img-05:hover {
+  transform: scale(1.1);
+}
+
+.img-06:hover {
+  transform: scale(1.1);
+}
+
+.img-07:hover {
+  transform: scale(1.1);
+}
+
+.img-08:hover {
+  transform: scale(1.1);
+}
+
+.img-09:hover {
+  transform: scale(1.1);
+}
+
+.img-10:hover {
+  transform: scale(1.1);
+}
+
+.img-11:hover {
+  transform: scale(1.1);
+}
+
+.img-12:hover {
+  transform: scale(1.1);
+}
+
+.img-13:hover {
+  transform: scale(1.1);
+}
+
+.img-14:hover {
+  transform: scale(1.1);
+}
+
+.img-15:hover {
+  transform: scale(1.1);
+}
+
+.img-16:hover {
+  transform: scale(1.1);
+}
+
+.img-17:hover {
+  transform: scale(1.1);
+}
+
+.img-18:hover {
+  transform: scale(1.1);
+}
+
+.img-19:hover {
+  transform: scale(1.1);
+}
+
+.img01:hover {
+  transform: scale(1.1);
+}
+
+.img02:hover {
+  transform: scale(1.1);
+}
+
+.img03:hover {
+  transform: scale(1.1);
+}
+
+.img04:hover {
+  transform: scale(1.1);
 }
 
 /*# sourceMappingURL=main.css.map */

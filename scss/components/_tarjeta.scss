@@ -8,9 +8,15 @@ $card-height: 100%
     align-content: center;
     text-align: center;
 }
-   
+   .tarjeta_body{
+align-content: center;
+align-items: center;
+
+   }
+
     .tarjeta-titulo{
  color: #846131; 
+align-content: center;
 }
 
 .tarjeta-texto{
@@ -20,12 +26,11 @@ $card-height: 100%
   }
 
 .btn{
-    background-color: #8461310a;
+    background-color: none;
     padding: 2px;
     color: whitesmoke;
     align-items: center;
     justify-content: center;
  }
    
-
 
