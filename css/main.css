@@ -1,3 +1,7 @@
+@font-face {
+  font-family: europhonic;
+  src: url(../assets/europhonic.otf);
+}
 * {
   margin: 0;
   padding: 0;
@@ -9,12 +13,12 @@
 }
 
 body {
-  background-image: url(../img/background.jpg);
+  background-image: url(../img/background2.jpg);
   background-repeat: repeat;
   height: 100%;
   width: 100%;
   background-attachment: fixed;
-  font-family: europhonic, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: europhonic;
 }
 
 .btn {
